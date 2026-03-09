@@ -15,3 +15,9 @@ jobs:
 
       - run: npm install
       - run: npx electron-builder --win --publish never
+
+      - name: Upload EXE
+        uses: actions/upload-artifact@v3
+        with:
+          name: mysoftware
+          path: dist/*.exe
