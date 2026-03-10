@@ -7,7 +7,8 @@
     "dist": "electron-builder"
   },
   "build": {
-    "appId": "com.instituteflow.app"
+    "appId": "com.instituteflow.app",
+    "icon": "build/icon.ico"
   },
   "devDependencies": {
     "electron": "^28.0.0",
