@@ -1,7 +1,8 @@
 {
-  "name": "Institute-Flow",
+  "name": "institute-flow",
   "productName": "Institute Flow",
   "version": "1.0.0",
+  "author": "Shubham Dubey - UCC",
   "main": "main.js",
   "scripts": {
     "dist": "electron-builder"
@@ -9,8 +10,9 @@
   "build": {
     "appId": "com.instituteflow.app",
     "icon": "build/icon.ico",
+    "copyright": "Copyright © 2026 Shubham Dubey",
     "nsis": {
-    "installerHeader": "build/installer.bmp"
+      "installerHeader": "build/installer.bmp"
     }
   },
   "devDependencies": {
